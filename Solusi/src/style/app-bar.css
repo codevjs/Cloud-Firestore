@@ -1,0 +1,8 @@
+nav {
+    padding: 8px 0;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(135,135,135,0.18);
+    -moz-box-shadow: 0 2px 5px 0 rgba(135,135,135,0.18);
+    box-shadow: 0 2px 5px 0 rgba(135,135,135,0.18);
+}
+

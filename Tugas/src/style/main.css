@@ -1,0 +1,104 @@
+
+/* font face */
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import "container.css";
+@import "flex-container.css";
+@import "app-bar.css";
+@import "article.css";
+@import "footer.css";
+@import "profile.css";
+
+*{ font-family: 'Quicksand', sans-serif;;}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    margin-top: 16px;
+}
+
+form {
+    box-shadow: 0 2px 5px 0 rgba(135,135,135,0.18);
+    padding: 15px;
+}
+
+input {
+    min-height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+}
+
+select {
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    background: transparent;
+}
+
+input:focus, select:focus {
+    border: 1px solid #ff5483;
+}
+
+textarea {
+    min-height: 150px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 3px;
+    border-color: #bbb;
+}
+
+textarea:focus {
+    border-color: #ff5483;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background: #ff5483;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color : #000000;
+}
+
+.navbar li.active a {
+    text-decoration: none;
+    color : #ff5483;
+}
