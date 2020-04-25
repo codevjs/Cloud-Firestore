@@ -26,7 +26,7 @@ class addArticleComponent extends HTMLElement {
                this.render(image.value, title.value, description.value);
                this.onSubmit();
 
-                const message =  await new DataSource().setArticle({
+                const message =  await new DataSource().addArticle({
                     image : image.value,
                     title : title.value,
                     description : description.value,

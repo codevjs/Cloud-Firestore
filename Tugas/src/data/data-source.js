@@ -41,8 +41,8 @@ class DataSource {
      * @param {object} data
      * @return {Promise<string>}
      */
-    setArticle(data) {
-        // TODO membuat artikel
+    addArticle(data) {
+        // TODO menambahkan artikel artikel
     }
 
     addView(articleId){
