@@ -18,11 +18,7 @@ class DataSource {
     getDocumentsInQuery(query, renderer) {
         query.onSnapshot(snapshot => {
             if (!snapshot.size) return renderer.articles = [];
-            let data = [];
-            snapshot.forEach(doc => {
-                data.push({...doc.data(), id: doc.id})
-            });
-            return renderer.articles = data;
+
         });
     }
 
